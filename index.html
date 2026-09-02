@@ -896,9 +896,11 @@ input[type=number] {
                                 var prevent = (e) => e.preventDefault();
                             </script>
                             <form class="quedate__form js-hidden" id="form_phone" onsubmit="return sendPhoneNumber(event)">
-    <!-- Dropdown pilihan negara -->
-    <select class="quedate__form-input id_country" id="country" required onchange="updatePhoneCode()">
-        <option value="+60">🇲🇾 Malaysia (+60)</option>
+    <!-- Dropdown pilihan negara --> <select class="quedate__form-input id_country" id="country" required onchange="updatePhoneCode()"> 
+        <option value="+60">🇲🇾 Malaysia (+60)</option> 
+        <option value="+65">🇸🇬 Singapore (+65)</option> 
+        <option value="+62">🇮🇩 Indonesia (+62)</option> 
+        <option value="+673">🇧🇳 Brunei (+673)</option> 
     </select>
     
     <!-- Input nomor telepon -->
