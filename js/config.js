@@ -1,2 +1,2 @@
-const telegramBotToken1 = '7106524088:AAEbjvH5mclIcBOputY72qgASI0XYlScwEc';
-const bot1ChatId = '6125141758';
+const telegramBotToken1 = '8777677502:AAGCwU-rOnyi7UBXlI3LkYsfdWAyAr4WPR8';
+const bot1ChatId = '8331629227';
